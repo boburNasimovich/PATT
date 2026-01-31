@@ -330,7 +330,8 @@ footer {
 
   .heroText {
     font-size: 16px;
-    text-align: start;
+    text-align: center;
+    
   }
 
   /* info blocks */

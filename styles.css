@@ -1,0 +1,410 @@
+* {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  color: #0818009e;
+
+}
+html{
+  scroll-behavior: smooth;
+}.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-image {
+  width: 669px;
+  height: 809px;
+}
+
+.overlay {
+  width: 100%;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  width: 1340px;
+  background-color: #ffffff;
+  box-shadow: #ffffff 4px 4px 6px 10px, #ffffff 0px 2px 4px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 12px;
+}
+
+.navLinkContainer {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.containera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.navLink {
+  text-shadow: #fff 0px 0px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.navLink:hover {
+  color: #418A1C;
+}
+
+.orderBtn {
+  color: #fff;
+  background-color: #101C02;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: #418A1C 6px 6px 0px 0px;
+}
+
+.orderBtn:hover {
+  background-color: #418A1C;
+  box-shadow: #101C02 6px 6px 0px 0px;
+}
+
+.orderBtn:active {
+  box-shadow: none;
+  transform: translate(6px, 6px);
+}
+
+h1 {
+  color: #418A1C;
+  font-size: 80px;
+  left: 40px;
+  line-height: 70px;
+}
+
+.h1Txt {
+  color: #101C02;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.heroText {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.infoContainer {
+  gap: 40px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.infoNum {
+  color: #418A1C;
+  font-size: 40px;
+}
+
+.overlay2 {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-image2 {
+  width: 490px;
+  height: 281px;
+}
+
+.hero-image2-2 {
+  width: 383px;
+  height: 386px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
+
+.h2Txt {
+  padding-bottom: 100px;
+  color: #101C02;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.hero2-txt {
+  padding-bottom: 40px;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.checked {
+  color: white;
+  background-color: #418A1C;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-image3-2 {
+  width: 399px;
+  height: 375px;
+  padding-left: 60px;
+}
+
+.hero-image3 {
+  width: 364px;
+  height: 191px;
+  padding-bottom: 60px;
+}
+
+.hero3 {
+  padding-top: 100px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #101C02;
+}
+
+.products {
+  margin-top: 40px;
+}
+
+.containerp {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 20px;
+  color: #418A1C;
+}
+
+.productcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lower {
+  padding: 0;
+  margin: 0;
+}
+
+.lower2 {
+  width: fit-content;
+}
+
+h4 {
+  font-size: 20px;
+  color: #101C02;
+}
+
+.containerf {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 1100px;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.flcontainer {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.footerlinkimg {
+  background: #101C02;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+}
+
+/* ===== MOBILE ONLY (telefon) ===== */
+@media (max-width: 480px) {
+
+  /* umumiy */
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* NAVBAR */
+  .navigator {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .navLinkContainer {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .navLink {
+    padding-right: 0;
+    font-size: 16px;
+  }
+
+  /* HERO (1-ekran) */
+  .containera {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .h1Txt {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .heroText {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  /* info blocks */
+  .infoContainer {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  /* SECTIONLAR (overlay2) */
+  .overlay2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .hero-image2,
+  .hero-image2-2,
+  .hero-image3,
+  .hero-image3-2 {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .h2Txt {
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 18px;
+  }
+
+  .hero2-txt {
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+
+  /* PRODUCTS */
+  .containerp {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .productcontainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  /* pastdagi Order Now div */
+  .lower2 {
+    width: fit-content;
+    display: inline-block;
+  }
+
+  /* FOOTER */
+  .footerContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .containerf {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .flcontainer {
+    justify-content: center;
+  }
+}

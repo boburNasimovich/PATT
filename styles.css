@@ -288,8 +288,8 @@ footer {
   /* NAVBAR */
   .navigator {
     width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     gap: 12px;
   }
 
@@ -406,5 +406,8 @@ footer {
 
   .flcontainer {
     justify-content: center;
+  }
+  .resp{
+    display: none;
   }
 }

@@ -4,9 +4,12 @@
   color: #0818009e;
 
 }
-html{
+
+html {
   scroll-behavior: smooth;
-}.raleway {
+}
+
+.raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -331,7 +334,7 @@ footer {
   .heroText {
     font-size: 16px;
     text-align: center;
-    
+
   }
 
   /* info blocks */
@@ -346,6 +349,10 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 18px;
+  }
+
+  .htxt2 {
+    text-align: start;
   }
 
   .hero-image2,
@@ -380,6 +387,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   /* pastdagi Order Now div */
   .lower2 {
     width: fit-content;
@@ -390,25 +398,34 @@ footer {
   .footerContainer {
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    margin: 0;
+    gap: 5px;
   }
 
   .footer-logo {
     display: none;
   }
 
+  h4 {
+    padding: 0;
+  }
+
   .containerf {
     width: 100%;
+    margin: 0;
   }
 
   footer {
+    padding-top: 0;
     text-align: center;
+    margin: 0;
   }
 
   .flcontainer {
     justify-content: center;
   }
-  .resp{
+
+  .resp {
     display: none;
   }
 }
